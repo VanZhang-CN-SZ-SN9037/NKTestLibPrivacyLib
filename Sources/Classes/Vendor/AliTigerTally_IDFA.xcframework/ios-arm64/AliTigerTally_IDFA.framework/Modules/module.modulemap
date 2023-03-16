@@ -1,0 +1,6 @@
+framework module AliTigerTally_IDFA {
+  umbrella header "AliTigerTally_IDFA.h"
+
+  export *
+  module * { export * }
+}

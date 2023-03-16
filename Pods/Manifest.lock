@@ -1,0 +1,18 @@
+PODS:
+  - NKTestLibPrivacyLib/CommerceUI (0.3.0):
+    - NKTestLibPrivacyLib/Extension
+  - NKTestLibPrivacyLib/Extension (0.3.0)
+
+DEPENDENCIES:
+  - NKTestLibPrivacyLib/CommerceUI
+
+SPEC REPOS:
+  "git@gitee.com:LuckyVan_admin/nkmobile-paa-sspecs.git":
+    - NKTestLibPrivacyLib
+
+SPEC CHECKSUMS:
+  NKTestLibPrivacyLib: e5a9bfac239ed2acf16785cbc5c34b51ddab32ac
+
+PODFILE CHECKSUM: 0794a6a3d21ff454a8deb083cd24300b14ac98bc
+
+COCOAPODS: 1.12.0

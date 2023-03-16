@@ -1,0 +1,6 @@
+framework module NKTestLibPrivacyLib {
+  umbrella header "NKTestLibPrivacyLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

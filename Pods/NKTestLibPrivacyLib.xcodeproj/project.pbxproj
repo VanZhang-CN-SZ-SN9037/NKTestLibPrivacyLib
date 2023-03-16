@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		212C4700000220 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 212C4700000210 /* Foundation.framework */; };
+		212C4700000230 /* NKRedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 212C47000000E0 /* NKRedView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		212C4700000240 /* NKTempViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 212C4700000100 /* NKTempViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		212C4700000250 /* NKRedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 212C47000000D0 /* NKRedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		212C4700000260 /* NKTempViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 212C47000000F0 /* NKTempViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		212C4700000270 /* NKTempViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 212C4700000110 /* NKTempViewController.xib */; };
+		212C4700000280 /* NSBundle+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 212C4700000150 /* NSBundle+Extension.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		212C4700000290 /* EquatableExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212C4700000130 /* EquatableExtensions.swift */; };
+		212C47000002A0 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212C4700000160 /* UIImage+Extensions.swift */; };
+		212C47000002B0 /* NSBundle+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 212C4700000140 /* NSBundle+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		212C4700000310 /* NKTestLibPrivacyLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 212C4700000300 /* NKTestLibPrivacyLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		212C4700000350 /* NKTestLibPrivacyLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 212C4700000340 /* NKTestLibPrivacyLib-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		212C47000000D0 /* NKRedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NKRedView.h; path = Sources/Classes/CommerceUI/NKRedView.h; sourceTree = "<group>"; };
+		212C47000000E0 /* NKRedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NKRedView.m; path = Sources/Classes/CommerceUI/NKRedView.m; sourceTree = "<group>"; };
+		212C47000000F0 /* NKTempViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NKTempViewController.h; path = Sources/Classes/CommerceUI/NKTempViewController.h; sourceTree = "<group>"; };
+		212C4700000100 /* NKTempViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NKTempViewController.m; path = Sources/Classes/CommerceUI/NKTempViewController.m; sourceTree = "<group>"; };
+		212C4700000110 /* NKTempViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = NKTempViewController.xib; path = Sources/Classes/CommerceUI/NKTempViewController.xib; sourceTree = "<group>"; };
+		212C4700000130 /* EquatableExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EquatableExtensions.swift; path = Sources/Classes/Extension/EquatableExtensions.swift; sourceTree = "<group>"; };
+		212C4700000140 /* NSBundle+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+Extension.h"; path = "Sources/Classes/Extension/NSBundle+Extension.h"; sourceTree = "<group>"; };
+		212C4700000150 /* NSBundle+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+Extension.m"; path = "Sources/Classes/Extension/NSBundle+Extension.m"; sourceTree = "<group>"; };
+		212C4700000160 /* UIImage+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Extensions.swift"; path = "Sources/Classes/Extension/UIImage+Extensions.swift"; sourceTree = "<group>"; };
+		212C4700000210 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		212C47000002D0 /* NKTestLibPrivacyLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NKTestLibPrivacyLib.debug.xcconfig; sourceTree = "<group>"; };
+		212C47000002E0 /* NKTestLibPrivacyLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NKTestLibPrivacyLib.release.xcconfig; sourceTree = "<group>"; };
+		212C47000002F0 /* NKTestLibPrivacyLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NKTestLibPrivacyLib.modulemap; sourceTree = "<group>"; };
+		212C4700000300 /* NKTestLibPrivacyLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NKTestLibPrivacyLib-umbrella.h"; sourceTree = "<group>"; };
+		212C4700000320 /* NKTestLibPrivacyLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NKTestLibPrivacyLib-Info.plist"; sourceTree = "<group>"; };
+		212C4700000330 /* NKTestLibPrivacyLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NKTestLibPrivacyLib-prefix.pch"; sourceTree = "<group>"; };
+		212C4700000340 /* NKTestLibPrivacyLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NKTestLibPrivacyLib-dummy.m"; sourceTree = "<group>"; };
+		CF501C1DFDE37ADACF10E40DC66BDA19 /* NKTestLibPrivacyLib */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NKTestLibPrivacyLib; path = NKTestLibPrivacyLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		212C47000001E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				212C4700000220 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		212C4700000010 = {
+			isa = PBXGroup;
+			children = (
+				212C4700000060 /* Frameworks */,
+				212C47000000B0 /* NKTestLibPrivacyLib */,
+				212C4700000020 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		212C4700000020 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF501C1DFDE37ADACF10E40DC66BDA19 /* NKTestLibPrivacyLib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		212C4700000060 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				212C4700000200 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		212C47000000B0 /* NKTestLibPrivacyLib */ = {
+			isa = PBXGroup;
+			children = (
+				212C47000000C0 /* CommerceUI */,
+				212C4700000120 /* Extension */,
+				212C47000002C0 /* Support Files */,
+			);
+			name = NKTestLibPrivacyLib;
+			path = NKTestLibPrivacyLib;
+			sourceTree = "<group>";
+		};
+		212C47000000C0 /* CommerceUI */ = {
+			isa = PBXGroup;
+			children = (
+				212C47000000D0 /* NKRedView.h */,
+				212C47000000E0 /* NKRedView.m */,
+				212C47000000F0 /* NKTempViewController.h */,
+				212C4700000100 /* NKTempViewController.m */,
+				212C4700000110 /* NKTempViewController.xib */,
+			);
+			name = CommerceUI;
+			sourceTree = "<group>";
+		};
+		212C4700000120 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				212C4700000130 /* EquatableExtensions.swift */,
+				212C4700000140 /* NSBundle+Extension.h */,
+				212C4700000150 /* NSBundle+Extension.m */,
+				212C4700000160 /* UIImage+Extensions.swift */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		212C4700000200 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				212C4700000210 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		212C47000002C0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				212C47000002F0 /* NKTestLibPrivacyLib.modulemap */,
+				212C4700000340 /* NKTestLibPrivacyLib-dummy.m */,
+				212C4700000320 /* NKTestLibPrivacyLib-Info.plist */,
+				212C4700000330 /* NKTestLibPrivacyLib-prefix.pch */,
+				212C4700000300 /* NKTestLibPrivacyLib-umbrella.h */,
+				212C47000002D0 /* NKTestLibPrivacyLib.debug.xcconfig */,
+				212C47000002E0 /* NKTestLibPrivacyLib.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NKTestLibPrivacyLib";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		212C47000001C0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				212C4700000250 /* NKRedView.h in Headers */,
+				212C4700000260 /* NKTempViewController.h in Headers */,
+				212C4700000310 /* NKTestLibPrivacyLib-umbrella.h in Headers */,
+				212C47000002B0 /* NSBundle+Extension.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FB3179F836AFA6681EFA9C017A3BE4FD /* NKTestLibPrivacyLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 212C4700000180 /* Build configuration list for PBXNativeTarget "NKTestLibPrivacyLib" */;
+			buildPhases = (
+				212C47000001C0 /* Headers */,
+				212C47000001D0 /* Sources */,
+				212C47000001E0 /* Frameworks */,
+				212C47000001F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NKTestLibPrivacyLib;
+			productName = NKTestLibPrivacyLib;
+			productReference = CF501C1DFDE37ADACF10E40DC66BDA19 /* NKTestLibPrivacyLib */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		212C4700000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 212C4700000030 /* Build configuration list for PBXProject "NKTestLibPrivacyLib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 212C4700000010;
+			productRefGroup = 212C4700000020 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB3179F836AFA6681EFA9C017A3BE4FD /* NKTestLibPrivacyLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		212C47000001F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		212C47000001D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				212C4700000290 /* EquatableExtensions.swift in Sources */,
+				212C4700000230 /* NKRedView.m in Sources */,
+				212C4700000240 /* NKTempViewController.m in Sources */,
+				212C4700000270 /* NKTempViewController.xib in Sources */,
+				212C4700000350 /* NKTestLibPrivacyLib-dummy.m in Sources */,
+				212C4700000280 /* NSBundle+Extension.m in Sources */,
+				212C47000002A0 /* UIImage+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		212C4700000040 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		212C4700000050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		212C4700000190 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 212C47000002E0 /* NKTestLibPrivacyLib.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/NKTestLibPrivacyLib\"",
+				);
+				GCC_PREFIX_HEADER = "Target Support Files/NKTestLibPrivacyLib/NKTestLibPrivacyLib-prefix.pch";
+				HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Public";
+				INFOPLIST_FILE = "Target Support Files/NKTestLibPrivacyLib/NKTestLibPrivacyLib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${DT_TOOLCHAIN_DIR}/usr/lib/swift/${PLATFORM_NAME}\"",
+					/usr/lib/swift,
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/NKTestLibPrivacyLib/NKTestLibPrivacyLib.modulemap";
+				PRODUCT_MODULE_NAME = NKTestLibPrivacyLib;
+				PRODUCT_NAME = NKTestLibPrivacyLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.4;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		212C47000001A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 212C47000002D0 /* NKTestLibPrivacyLib.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/NKTestLibPrivacyLib\"",
+				);
+				GCC_PREFIX_HEADER = "Target Support Files/NKTestLibPrivacyLib/NKTestLibPrivacyLib-prefix.pch";
+				HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Public";
+				INFOPLIST_FILE = "Target Support Files/NKTestLibPrivacyLib/NKTestLibPrivacyLib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${DT_TOOLCHAIN_DIR}/usr/lib/swift/${PLATFORM_NAME}\"",
+					/usr/lib/swift,
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/NKTestLibPrivacyLib/NKTestLibPrivacyLib.modulemap";
+				PRODUCT_MODULE_NAME = NKTestLibPrivacyLib;
+				PRODUCT_NAME = NKTestLibPrivacyLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.4;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		212C4700000030 /* Build configuration list for PBXProject "NKTestLibPrivacyLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				212C4700000040 /* Debug */,
+				212C4700000050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		212C4700000180 /* Build configuration list for PBXNativeTarget "NKTestLibPrivacyLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				212C47000001A0 /* Debug */,
+				212C4700000190 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 212C4700000000 /* Project object */;
+}
